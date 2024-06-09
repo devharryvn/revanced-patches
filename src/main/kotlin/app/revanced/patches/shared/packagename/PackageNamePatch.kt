@@ -17,12 +17,12 @@ import app.revanced.patcher.patch.options.PatchOption.PatchExtensions.stringPatc
 )
 @Suppress("unused")
 object PackageNamePatch : ResourcePatch() {
-    private const val CLONE_PACKAGE_NAME_YOUTUBE = "bill.youtube"
-    private const val DEFAULT_PACKAGE_NAME_YOUTUBE = "anddea.youtube"
+    private const val CLONE_PACKAGE_NAME_YOUTUBE = "com.vanced.android.youtube"
+    private const val DEFAULT_PACKAGE_NAME_YOUTUBE = "com.google.android.youtube"
     internal const val ORIGINAL_PACKAGE_NAME_YOUTUBE = "com.google.android.youtube"
 
-    private const val CLONE_PACKAGE_NAME_YOUTUBE_MUSIC = "bill.youtube.music"
-    private const val DEFAULT_PACKAGE_NAME_YOUTUBE_MUSIC = "anddea.youtube.music"
+    private const val CLONE_PACKAGE_NAME_YOUTUBE_MUSIC = "com.vanced.music"
+    private const val DEFAULT_PACKAGE_NAME_YOUTUBE_MUSIC = "com.google.android.apps.youtube.music"
     internal const val ORIGINAL_PACKAGE_NAME_YOUTUBE_MUSIC = "com.google.android.apps.youtube.music"
 
     internal var packageNameYouTube = DEFAULT_PACKAGE_NAME_YOUTUBE
